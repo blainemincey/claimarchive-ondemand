@@ -89,7 +89,3 @@ package-lock.json
 /build
 
 /client/src/auth_config.json
-
-config/*
-config/*.json
-config/default.json
