@@ -56,8 +56,7 @@ class App extends Component {
     }
 
     async getClaims(year) {
-        console.log(CLAIMS_BY_YEAR_URL + year);
-        return await ClaimService.getClaimsForYear(CLAIMS_BY_YEAR_URL + "/" + year);
+        return await ClaimService.getClaimsForYear(CLAIMS_BY_YEAR_URL + year);
     }
 
     async getTotalClaimsArchived() {

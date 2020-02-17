@@ -2,7 +2,7 @@
   "default": {
     "config_id": "default",
     "route_port": 5000,
-    "db_url": "my atlas data lake url",
+    "db_url": "data lake url",
     "db_name": "claimsArchiveDatabase",
     "db_collection": "claims"
   }
